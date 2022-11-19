@@ -4,14 +4,13 @@ import { mapTrackPlayableStatus } from '@/utils/common';
 /**
  * 调用此接口 , 可获取 banner( 轮播图 ) 数据
  */
-export function banner(params){
+export function banner(params) {
   return request({
-    url:'/banner',
+    url: '/banner',
     method: 'get',
     params,
-  })
+  });
 }
-
 
 /**
  * 推荐歌单
